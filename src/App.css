@@ -1,38 +1,263 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.header--sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 22px 0px 22px;
+  font-size: 13px;
+
+
+}
+
+.span-bg {
+  color: #54ad76;
+  cursor: pointer;
+}
+
+.span-bg:hover {
+  color: #64de93;
+
+}
+
+.features-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.features-div p {
+  font-size: 10px;
+  margin: 12px;
+}
+
+.features-div p:hover {
+  color: #54ad76;
+
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.div-1 {
+  box-sizing: border-box;
+  margin: 20px;
+
+}
+
+.div-1 img {
+  border-radius: 12px;
+  width: 200px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.div-1 img:hover {
+  transform: scale(1.1);
+}
+
+.div-2 {
+  font-size: 12px;
+  color: #54ad76;
+  margin: 20px;
+
+}
+
+.div-2 h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.div-2 button {
+  cursor: pointer;
+  font-size: 12px;
+  padding: 5px;
+  background-color: #54ad76;
+  border: none;
+  border-radius: 12px;
+  width: 100px;
+  color: white;
+  margin-top: 12px;
+}
+
+.div-2 button:hover {
+  background-color: #64de93;
+}
+
+.sec-div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  box-sizing: content-box;
+
+}
+
+.sec-1 h1 {
+  font-weight: 900;
+
+
+}
+
+.card {
+  display: flex;
+}
+
+.card-div {
+  font-size: 12px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  padding: 5px;
+  margin: 22px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.card-div:hover {
+  transform: scale(1.1);
+
+}
+
+.specs h2 {
+  font-size: 14px;
+
+}
+
+
+
+.heading {
+  color: #54ad76;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.third {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.third h1 {
+  font-size: 20px;
+
+}
+
+.third-div {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 500px;
+  border-radius: 12px;
+  justify-content: center;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 12px;
+}
+
+.third-div button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 5px;
+  background-color: #54ad76;
+  border: none;
+  border-radius: 12px;
+  width: 100px;
+  color: white;
+
+}
+
+.four-div {
+  display: grid;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.four-div h1 {
+  font-size: 20px;
+
+}
+
+p {
+  color: gray;
+  font-size: 10px;
+}
+
+.sample-img {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+.sample-img img {
+  width: 150px;
+  height: 200px;
+  border-radius: 12px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.sample-img img:hover {
+  transform: scale(1.1);
+
+}
+
+.footer-div {
+  margin: 20px 12px 12px 0px;
+
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot p {
+  color: #54ad76;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.foot ul {
+  color: gray;
+  font-size: 12px;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.foot li:hover {
+  color: #54ad76;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logos {
+  margin: 2px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logos:hover {
+  color: #54ad76;
 }
