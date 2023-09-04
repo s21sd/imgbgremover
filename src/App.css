@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono&display=swap');
 
 body {
-  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Playfair Display', serif;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -59,7 +59,7 @@ body {
 .div-1 img {
   border-radius: 12px;
   width: 200px;
-  transition: transform 0.3s;
+  transition: transform 0.6s;
   cursor: pointer;
 }
 
@@ -79,7 +79,7 @@ body {
   font-weight: bold;
 }
 
-.div-2 button {
+.bg-btn1 {
   cursor: pointer;
   font-size: 12px;
   padding: 5px;
@@ -91,8 +91,25 @@ body {
   margin-top: 12px;
 }
 
-.div-2 button:hover {
+.bg-btn1:hover {
   background-color: #64de93;
+}
+
+.bg-btn2 {
+  margin-left: 12px;
+  cursor: pointer;
+  font-size: 9px;
+  padding: 7px;
+  border: 1px solid #54ad76;
+  border-radius: 12px;
+  width: 100px;
+  color: #54ad76;
+  margin-top: 12px;
+}
+
+.bg-btn2:hover {
+  background-color: #64de93;
+  color: white;
 }
 
 .sec-div {
@@ -125,7 +142,7 @@ body {
   width: 200px;
   padding: 5px;
   margin: 22px;
-  transition: transform 0.3s;
+  transition: transform 0.6s;
   cursor: pointer;
 }
 
@@ -218,7 +235,7 @@ p {
   width: 150px;
   height: 200px;
   border-radius: 12px;
-  transition: transform 0.3s;
+  transition: transform 0.6s;
   cursor: pointer;
 }
 
@@ -261,3 +278,4 @@ p {
 .logos:hover {
   color: #54ad76;
 }
+
