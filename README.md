@@ -10,36 +10,6 @@ This is a web application built using React that utilizes an external API to rem
 ## Demo
 [Link to Live Demo](https://background-remover-h3yd.vercel.app/)
 
-## Getting Started
-Follow these instructions to get the project up and running on your local machine.
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/background-remover.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd background-remover
-   ```
-
-3. Install the dependencies:
-   ```bash
-   npm install
-   ```
-
-4. Create a `.env` file in the project root and add your API key:
-
-   ```
-   REACT_APP_API_KEY=your-api-key
-   ```
-
-5. Start the development server:
-   ```bash
-   npm start
-   ```
-
-6. Open your browser and go to [http://localhost:3000](http://localhost:3000) to access the application.
 
 ## Usage
 1. Open the web application in your browser.
